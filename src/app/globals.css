@@ -19,6 +19,10 @@
   }
 }
 
+html, body {
+  @apply h-full w-full overflow-hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
